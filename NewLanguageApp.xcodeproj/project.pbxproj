@@ -23,6 +23,7 @@
 		2BC1E8221B00D6A100586429 /* TagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1E8211B00D6A100586429 /* TagViewController.swift */; };
 		2BC1E8241B00D74900586429 /* TagFormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1E8231B00D74900586429 /* TagFormController.swift */; };
 		2BC1E8261B00D77600586429 /* TagDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1E8251B00D77600586429 /* TagDetailController.swift */; };
+		2BC1E8281B00DBC800586429 /* WordTagsSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1E8271B00DBC800586429 /* WordTagsSelectionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		2BC1E8211B00D6A100586429 /* TagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagViewController.swift; sourceTree = "<group>"; };
 		2BC1E8231B00D74900586429 /* TagFormController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagFormController.swift; sourceTree = "<group>"; };
 		2BC1E8251B00D77600586429 /* TagDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagDetailController.swift; sourceTree = "<group>"; };
+		2BC1E8271B00DBC800586429 /* WordTagsSelectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordTagsSelectionController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				2BC1E81B1B00CAB100586429 /* WordFormController.swift */,
 				2BC1E80E1B00C6AA00586429 /* WordViewController.swift */,
 				2BC1E81F1B00D05A00586429 /* WordDetailController.swift */,
+				2BC1E8271B00DBC800586429 /* WordTagsSelectionController.swift */,
 				2BC1E8211B00D6A100586429 /* TagViewController.swift */,
 				2BC1E8251B00D77600586429 /* TagDetailController.swift */,
 				2BC1E8231B00D74900586429 /* TagFormController.swift */,
@@ -254,6 +257,7 @@
 				2BC1E8221B00D6A100586429 /* TagViewController.swift in Sources */,
 				2BC1E81C1B00CAB100586429 /* WordFormController.swift in Sources */,
 				2BC1E80F1B00C6AA00586429 /* WordViewController.swift in Sources */,
+				2BC1E8281B00DBC800586429 /* WordTagsSelectionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

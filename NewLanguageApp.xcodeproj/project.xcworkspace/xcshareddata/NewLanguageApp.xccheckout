@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7BBFAD1B-C105-4561-A07F-BD3713603656</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NewLanguageApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C20E772DB6B938DA01026E71E11072CD0CDDD79B</key>
+		<string>https://github.com/cosmorogers/ios-assignment.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NewLanguageApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C20E772DB6B938DA01026E71E11072CD0CDDD79B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/cosmorogers/ios-assignment.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C20E772DB6B938DA01026E71E11072CD0CDDD79B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C20E772DB6B938DA01026E71E11072CD0CDDD79B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NewLanguageApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
