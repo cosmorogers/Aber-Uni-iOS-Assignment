@@ -13,26 +13,25 @@ class WordDetailController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //http://stackoverflow.com/questions/24470656/fail-to-hide-empty-cells-in-uitableview-swift
+        tableView.tableFooterView = UIView(frame: CGRectZero)
+
         configureView()
     }
     
     var word: WordPair? {
         didSet {
-            print(word)
-            //if titleCell != nil {
-                self.configureView()
-            //}
-            //
+            self.configureView()
         }
     }
     
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return 4;
+        return 5
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if section == 3 { //tags
-            return 3
+        if section == 4 { //tags
+            return word!.tags.count
         } else {
             return 1
         }
@@ -47,9 +46,11 @@ class WordDetailController: UITableViewController {
         case 2:
             return "Notes"
         case 3:
-            return "Tags";
+            return "Type"
+        case 4:
+            return "Tags"
         default:
-            return "";
+            return ""
         }
     }
     
@@ -64,8 +65,10 @@ class WordDetailController: UITableViewController {
         case 2:
             cell.textLabel!.text = word?.note
         case 3:
+            cell.textLabel!.text = word?.type
+        case 4:
             //Tags
-            cell.textLabel!.text = "here goeth tags"
+            cell.textLabel!.text = word!.tags.allObjects[indexPath.row].name
         default:
             //do nothing
             return cell;
@@ -77,8 +80,5 @@ class WordDetailController: UITableViewController {
     
     func configureView() {
         self.tableView.reloadData()
-        //titleCell!.textLabel!.text = "\(speaker!.forename) \(speaker!.surname)"
-       // titleCell!.detailTextLabel!.text = speaker?.email
-        //bioCell!.textLabel!.text = speaker?.biography
     }
 }

@@ -14,6 +14,11 @@ class WordFormController: UITableViewController {
     @IBOutlet weak var word: UITextField!
     @IBOutlet weak var translation: UITextField!
     @IBOutlet weak var note: UITextField!
+    @IBOutlet weak var type: UITextField!
+    
+    @IBOutlet weak var selectedTags: UITableViewCell!
+    
+    var selected : NSMutableSet! = nil
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,5 +28,31 @@ class WordFormController: UITableViewController {
         tableView.tableFooterView = UIView(frame: CGRectZero)
         
     }
+    
+    @IBAction func selectedTags(segue:UIStoryboardSegue) {
+        if let controller = segue.sourceViewController as? WordTagsSelectionController {
+            selected = controller.selected;
+            
+            var msg  = " tag selected"
+            
+            if selected.count > 1 {
+                msg = " tags selected"
+            }
+            
+            selectedTags.textLabel?.text = String(selected.count) + msg
+        }
+
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if let nextViewController = segue.destinationViewController as? WordTagsSelectionController {
+            if selected !== nil {
+                nextViewController.selected = selected
+            }
+            
+        }
+    }
+    
+    
     
 }

@@ -78,8 +78,13 @@ class WordViewController: UITableViewController {
                 insertIntoManagedObjectContext: managedContext)
             awordpair.original = controller.word!.text
             awordpair.translated = controller.translation!.text
+            awordpair.type = controller.type!.text
             awordpair.note = controller.note!.text
-
+            
+            if controller.selected !== nil {
+                awordpair.tags = controller.selected!
+            }
+            
             if !managedContext.save(&error) {
                 NSLog("Could not save \(error)")
             }

@@ -16,6 +16,6 @@ class WordPair: NSManagedObject {
     @NSManaged var original: String
     @NSManaged var translated: String
     @NSManaged var type: String
-    @NSManaged var tags: Tag
+    @NSManaged var tags: NSSet
 
 }

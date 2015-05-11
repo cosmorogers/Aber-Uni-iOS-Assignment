@@ -24,6 +24,9 @@
 		2BC1E8241B00D74900586429 /* TagFormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1E8231B00D74900586429 /* TagFormController.swift */; };
 		2BC1E8261B00D77600586429 /* TagDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1E8251B00D77600586429 /* TagDetailController.swift */; };
 		2BC1E8281B00DBC800586429 /* WordTagsSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1E8271B00DBC800586429 /* WordTagsSelectionController.swift */; };
+		2BF60BDF1B01164400C836B6 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF60BDE1B01164400C836B6 /* SearchController.swift */; };
+		2BF60BE11B011FA700C836B6 /* RevisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF60BE01B011FA700C836B6 /* RevisionViewController.swift */; };
+		2BF60BE31B01208300C836B6 /* ReviseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF60BE21B01208300C836B6 /* ReviseController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,9 @@
 		2BC1E8231B00D74900586429 /* TagFormController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagFormController.swift; sourceTree = "<group>"; };
 		2BC1E8251B00D77600586429 /* TagDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagDetailController.swift; sourceTree = "<group>"; };
 		2BC1E8271B00DBC800586429 /* WordTagsSelectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordTagsSelectionController.swift; sourceTree = "<group>"; };
+		2BF60BDE1B01164400C836B6 /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		2BF60BE01B011FA700C836B6 /* RevisionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RevisionViewController.swift; sourceTree = "<group>"; };
+		2BF60BE21B01208300C836B6 /* ReviseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviseController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,22 +106,25 @@
 			isa = PBXGroup;
 			children = (
 				2BC1E7EB1B00C52200586429 /* AppDelegate.swift */,
-				2BC1E7F01B00C52200586429 /* ViewController.swift */,
-				2BC1E7F21B00C52200586429 /* Main.storyboard */,
 				2BC1E7F51B00C52200586429 /* Images.xcassets */,
 				2BC1E7F71B00C52200586429 /* LaunchScreen.xib */,
+				2BC1E7F21B00C52200586429 /* Main.storyboard */,
+				2BC1E81D1B00CF7300586429 /* MenuController.swift */,
 				2BC1E7ED1B00C52200586429 /* NewLanguageApp.xcdatamodeld */,
-				2BC1E8191B00C86B00586429 /* WordPair.swift */,
+				2BF60BE21B01208300C836B6 /* ReviseController.swift */,
+				2BF60BE01B011FA700C836B6 /* RevisionViewController.swift */,
+				2BF60BDE1B01164400C836B6 /* SearchController.swift */,
+				2BC1E7E91B00C52200586429 /* Supporting Files */,
 				2BC1E8171B00C86B00586429 /* Tag.swift */,
-				2BC1E81B1B00CAB100586429 /* WordFormController.swift */,
-				2BC1E80E1B00C6AA00586429 /* WordViewController.swift */,
-				2BC1E81F1B00D05A00586429 /* WordDetailController.swift */,
-				2BC1E8271B00DBC800586429 /* WordTagsSelectionController.swift */,
-				2BC1E8211B00D6A100586429 /* TagViewController.swift */,
 				2BC1E8251B00D77600586429 /* TagDetailController.swift */,
 				2BC1E8231B00D74900586429 /* TagFormController.swift */,
-				2BC1E81D1B00CF7300586429 /* MenuController.swift */,
-				2BC1E7E91B00C52200586429 /* Supporting Files */,
+				2BC1E8211B00D6A100586429 /* TagViewController.swift */,
+				2BC1E7F01B00C52200586429 /* ViewController.swift */,
+				2BC1E81F1B00D05A00586429 /* WordDetailController.swift */,
+				2BC1E81B1B00CAB100586429 /* WordFormController.swift */,
+				2BC1E8191B00C86B00586429 /* WordPair.swift */,
+				2BC1E8271B00DBC800586429 /* WordTagsSelectionController.swift */,
+				2BC1E80E1B00C6AA00586429 /* WordViewController.swift */,
 			);
 			path = NewLanguageApp;
 			sourceTree = "<group>";
@@ -248,6 +257,9 @@
 				2BC1E8201B00D05A00586429 /* WordDetailController.swift in Sources */,
 				2BC1E81E1B00CF7300586429 /* MenuController.swift in Sources */,
 				2BC1E8241B00D74900586429 /* TagFormController.swift in Sources */,
+				2BF60BE31B01208300C836B6 /* ReviseController.swift in Sources */,
+				2BF60BDF1B01164400C836B6 /* SearchController.swift in Sources */,
+				2BF60BE11B011FA700C836B6 /* RevisionViewController.swift in Sources */,
 				2BC1E8261B00D77600586429 /* TagDetailController.swift in Sources */,
 				2BC1E7F11B00C52200586429 /* ViewController.swift in Sources */,
 				2BC1E81A1B00C86B00586429 /* WordPair.swift in Sources */,
@@ -456,6 +468,7 @@
 				2BC1E80A1B00C52200586429 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BC1E80B1B00C52200586429 /* Build configuration list for PBXNativeTarget "NewLanguageAppTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +477,7 @@
 				2BC1E80D1B00C52200586429 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
